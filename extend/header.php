@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mr-auto">
-                    <a href="#" class="nav-link">Inventario</a>
+                    <a href="../admin/inventario.php" class="nav-link">Inventario</a>
                 </li>
             </ul>
             <button class="btn btn-dark"  id="logout">Salir</button>
