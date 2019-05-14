@@ -8,6 +8,10 @@ var firebaseConfig = {
     appId: "1:1083184136645:web:bd9704a4845a5e7c"
 };
 firebase.initializeApp(firebaseConfig);
+const db = firebase.database()
+const auth = firebase.auth()
+console.log(db)
+console.log(auth)
 
 const txtEmail = document.getElementById('correo');
 const txtPassword = document.getElementById('pass');

@@ -12,6 +12,8 @@
             padding-bottom: 10px;
         }
     </style>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
@@ -20,12 +22,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="menu">
-            <ul>
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item mr-auto">
                     <a href="#" class="nav-link">Inventario</a>
                 </li>
             </ul>
-
+            <button class="btn btn-dark"  id="logout">Salir</button>
         </div>
         
     </nav>
