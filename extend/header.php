@@ -1,3 +1,4 @@
+<?php include '../conexion/conexion.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +26,17 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mr-auto">
                     <a href="../admin/inventario.php" class="nav-link">Inventario</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categorias</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="../admin/categorias.php?opc=General" class="dropdown-item">General</a>
+                        <a href="../admin/categorias.php?opc=Moda" class="dropdown-item">Moda</a>
+                        <a href="../admin/categorias.php?opc=Electronica" class="dropdown-item">Electronica</a>
+                        <a href="../admin/categorias.php?opc=Joyeria" class="dropdown-item">Joyeria</a>
+                        <a href="../admin/categorias.php?opc=Relojes" class="dropdown-item">Relojes</a>                        
+                    </div>
                 </li>
             </ul>
             <button class="btn btn-dark"  id="logout">Salir</button>
