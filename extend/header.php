@@ -18,7 +18,7 @@
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a href="#" class="navbar-brand">MQFast</a>
+        <a href="../admin/index.php" class="navbar-brand">MQFast</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
             <span class="navbar-toggler-icon"></span>
         </button>
