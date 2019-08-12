@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 03-08-2019 a las 07:03:23
+-- Tiempo de generación: 09-08-2019 a las 04:42:26
 -- Versión del servidor: 10.3.16-MariaDB
 -- Versión de PHP: 7.2.20
 
@@ -51,12 +51,9 @@ CREATE TABLE `compras` (
 --
 
 INSERT INTO `compras` (`id`, `clave`, `correo_usuario`, `clave_producto`, `producto`, `foto`, `descripcion`, `cantidad`, `precio`, `total`, `fecha`, `estado_envio`, `estado_compra`, `direccion`, `nombre`) VALUES
-(1, 'f12e12822d8e79e40f65c0ec5ee824b8ade3e227', 'garycallecortez@gmail.com', '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg', 'Lorem', 1, '750.00', '750.00', '2019-07-27', '', 'AGREGADO', '', ''),
-(2, '01936e98c611d43e4cad63b2ff2908cf82005274', 'garycallecortez@gmail.com', '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg', 'Lorem', 1, '750.00', '750.00', '2019-07-27', '', 'AGREGADO', '', ''),
-(3, '12a730cfe2b586e965c1287b2cc67373531096e0', 'garycallecortez@gmail.com', '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg', 'Lorem', 1, '750.00', '750.00', '2019-07-27', '', 'AGREGADO', '', ''),
-(4, 'bd5354eb80e2625cfcf1715bf704c8a502750d6c', 'garycallecortez@gmail.com', '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png', 'La rica anvurguesa', 2, '5.00', '10.00', '2019-07-27', '', 'AGREGADO', '', ''),
-(5, '49c542aa5602511facd85ec49bd998c4e3673b0d', 'garysk894@gmail.com', '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg', 'Lorem', 1, '750.00', '750.00', '2019-07-27', '', 'AGREGADO', 'calle y nro tacnamandapio 01 Tacna, Per&uacute;', 'juanito'),
-(6, '0570f5d013976248a09705266ba927249cb35b57', 'garysk894@gmail.com', '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png', 'La rica anvurguesa', 2, '5.00', '10.00', '2019-07-27', '', 'AGREGADO', 'calle y nro tacnamandapio 01 Tacna, Per&uacute;', 'juanito');
+(4, 'bd5354eb80e2625cfcf1715bf704c8a502750d6c', 'garycallecortez@gmail.com', '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png', 'La rica anvurguesa', 2, '5.00', '10.00', '2019-08-08', 'ENTREGADO', 'COMPRADO', 'calle anvurguesa colonia papitas fritas 01 Grande-Terre, Guadalupe', 'anvurguesa nombre'),
+(5, '49c542aa5602511facd85ec49bd998c4e3673b0d', 'garysk894@gmail.com', '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg', 'Lorem', 1, '750.00', '750.00', '2019-07-27', '', 'AGREGADO', 'asdasd adas 01 Bremen, Alemania', 'nombre completo pasdad'),
+(6, '0570f5d013976248a09705266ba927249cb35b57', 'garysk894@gmail.com', '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png', 'La rica anvurguesa', 2, '5.00', '10.00', '2019-07-27', '', 'AGREGADO', 'asdasd adas 01 Bremen, Alemania', 'nombre completo pasdad');
 
 -- --------------------------------------------------------
 
@@ -2132,9 +2129,9 @@ CREATE TABLE `inventario` (
 
 INSERT INTO `inventario` (`id`, `clave`, `producto`, `cantidad`, `precio`, `categoria`, `descripcion`, `foto`) VALUES
 (1, '9f1520d4006ae0321f93137d4364e297368a13ab', 'prdo', 1, '10', 'moda', 'descripcion', 'foto_producto/producto_placeholder.png'),
-(2, '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 6, '750', 'moda', 'Lorem', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg'),
+(2, '93c5b16216256e2d22910d1fe769745776d45071', 'Xiaomi MI A2 ', 4, '750', 'moda', 'Lorem', 'foto_producto/93c5b16216256e2d22910d1fe769745776d45071.jpg'),
 (3, '926264183890541e4bb49fd9ba514fe5892daf26', 'MI Band 4', 50, '34', 'electronica', 'Mi Band 3 recien salido casero caserita!! lleve lleve que esta que quema!', 'foto_producto/926264183890541e4bb49fd9ba514fe5892daf26.jpg'),
-(4, '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 50, '5', 'moda', 'La rica anvurguesa', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png'),
+(4, '9cef962d9692a5a1428da0805a25c7791cfc71bc', 'Anvurgues', 38, '5', 'moda', 'La rica anvurguesa', 'foto_producto/9cef962d9692a5a1428da0805a25c7791cfc71bc.png'),
 (5, '5a27652bcd6d0b8f5a12845e942bf166f0f45cad', 'iPhone SE', 1, '600', 'electronica', 'iPhone 5SE \r\n32 GB\r\nsolo efectivo\r\nbateria al 97%', 'foto_producto/5a27652bcd6d0b8f5a12845e942bf166f0f45cad.jpg');
 
 -- --------------------------------------------------------
